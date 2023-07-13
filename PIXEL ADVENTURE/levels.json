@@ -1,0 +1,333 @@
+{
+    "levels":
+    [
+        {
+            "level_uno" : 
+            {
+                "background": "Background/Blue.png",
+                
+                "enemigos":
+                [
+                    {
+                        "name":"chancho",
+                        "amount" : 1,
+                        "position_x" : [1300],
+                        "position_y": [625],
+                        "speed": [7]
+                    }   
+                    ,
+                    {
+                        "name":"planta",
+                        "amount" : 1,
+                        "position_x" : [900],
+                        "position_y": [345],
+                        "speed": [0]
+                    }
+                ],
+                "plataformas":
+                [
+                    {
+                        "name":"left_wall",
+                        "amount" : 4,
+                        "position_x" : -35,
+                        "position_y": [0,200,400,600],
+                        "speed": 0,
+                        "width" : 50,
+                        "height": 200,
+                        "speed_up_down":0
+                    },
+                    {
+                        "name":"right_wall",
+                        "amount" : 4,
+                        "position_x" : 1490,
+                        "position_y": [0,400,800,1200],
+                        "speed": 0,
+                        "width" : 50,
+                        "height": 400,
+                        "speed_up_down":0
+                    },
+                    {
+                        "name":"flat",
+                        "amount" : 4,
+                        "position_x" : [0,400,800,1200],
+                        "position_y": 650,
+                        "speed": 0,
+                        "width" : 400,
+                        "height": 200,
+                        "speed_up_down":0
+                    },
+                    {
+                        "name":"some",
+                        "amount" : 13,
+                        "position_x" : [10,110,600,650,700,750,800,850,900,950,1000,1050,1100],
+                        "position_y": [550,490,385,385,385,385,385,385,385,385,250,250,250],
+                        "speed": 0,
+                        "width" : 50,
+                        "height": 50,
+                        "speed_up_down":0,
+                        "type":[1,1,0,1,1,1,1,1,1,2,0,1,2]
+                    },
+                    {
+                        "name":"movable",
+                        "amount" : 3,
+                        "position_x" : [800,850,900],
+                        "position_y": [550,550,550],
+                        "speed": [7,7,7],
+                        "width" : 50,
+                        "height": 50,
+                        "speed_up_down":5,
+                        "punto_volver_plat_up":[400,400,400],
+                        "type":[0,1,2],
+                        "point_move_r": [1100,1150,1200],
+                        "point_move_l":[300,350,400]
+                    }
+                ],
+                "frutas":
+                [
+                    {
+                        "name":"apple",
+                        "amount":12,
+                        "position_x":[15,115,210,1050,1200,1200,1050,1200,700,1400,1400,1000],
+                        "position_y":[520,460,400,100,500,600,200,400,600,600,500,500],
+                        "speed": 0
+                    },
+                    {
+                        "name":"apple_movable",
+                        "amount":3,
+                        "position_x":[810,860,910],
+                        "position_y":[520,520,520],
+                        "speed":[1,1,1]
+                    }
+                
+                ],
+                "trampas":
+                [
+                    {
+                        "name":"cierra",
+                        "amount" : 3,
+                        "position_x": [1060,850,1000],
+                        "position_y": [230,590,590]
+                    }
+                ]
+            }, 
+            "level_dos" : 
+            {
+                "background": "Background/Green.png",
+                
+                "enemigos":
+                [
+                    {
+                        "name":"ghost",
+                        "amount" : 1,
+                        "position_x" : [100],
+                        "position_y": [350],
+                        "speed": [0]
+                    }   
+                    ,
+                    {
+                        "name":"rino",
+                        "amount" : 1,
+                        "position_x" : [900],
+                        "position_y": [550],
+                        "speed": [7]
+                    }   
+                ],
+                "plataformas":
+                [
+                    {
+                        "name":"left_wall",
+                        "amount" : 4,
+                        "position_x" : -35,
+                        "position_y": [0,200,400,600],
+                        "speed": 0,
+                        "width" : 50,
+                        "height": 200,
+                        "speed_up_down":0
+                    },
+                    {
+                        "name":"right_wall",
+                        "amount" : 4,
+                        "position_x" : 1490,
+                        "position_y": [0,400,800,1200],
+                        "speed": 0,
+                        "width" : 50,
+                        "height": 400,
+                        "speed_up_down":0
+                    },
+                    {
+                        "name":"flat",
+                        "amount" : 4,
+                        "position_x" : [0,400,800,1200],
+                        "position_y": 650,
+                        "speed": 0,
+                        "width" : 400,
+                        "height": 200,
+                        "speed_up_down":0
+                    },
+                    {
+                        "name":"movable",
+                        "amount" : 3,
+                        "position_x" : [700,750,800],
+                        "position_y": [600,600,600],
+                        "speed": [7,7,7],
+                        "width" : 50,
+                        "height": 50,
+                        "speed_up_down":5,
+                        "punto_volver_plat_up":[300,350,350],
+                        "type":[0,1,2],
+                        "point_move_r": [1100,1150,1200],
+                        "point_move_l":[600,650,700]
+                    },
+                    {
+                        "name":"some",
+                        "amount" : 20,
+                        "position_x" : [990,1070,1040,1110,1180,1250,1320,1390,1420,1300,1230,10,80,150,220,290,360,430,500,350],
+                        "position_y": [475,475,475,475,475,475,475,475,320,230,230,400,400,400,400,400,400,400,400,250],
+                        "speed": 0,
+                        "width" : 70,
+                        "height": 70,
+                        "speed_up_down":0,
+                        "type":[0,1,1,1,1,1,1,2,1,1,1,0,1,1,1,1,1,1,2,1]
+                    }
+                ],
+                "frutas":
+                [
+                    {
+                        "name":"apple",
+                        "amount":9,
+                        "position_x":[15,260,210,1050,1200,1200,1050,1200,10,100],
+                        "position_y":[500,200,350,100,400,600,200,400,350,350],
+                        "speed": 0
+                    },
+                    {
+                        "name":"apple_movable",
+                        "amount":3,
+                        "position_x":[810,860,910],
+                        "position_y":[520,520,520],
+                        "speed":[1,1,1]
+                    }
+                ],
+                "trampas":
+                [
+                    {
+                        "name":"cierra",
+                        "amount" : 2,
+                        "position_x": [1320,1000],
+                        "position_y": [460,460]
+                    }
+                ]
+            },  
+
+            "level_tres": 
+            {
+                "background": "Background/Pink.png",
+                
+                "enemigos":
+                [
+                    {
+                        "name":"planta",
+                        "amount" : 2,
+                        "position_x" : [1100,1100],
+                        "position_y": [310,160],
+                        "speed": [0,0]
+                    }   
+                    ,
+                    {
+                        "name":"ghost",
+                        "amount" : 2,
+                        "position_x" : [250,250],
+                        "position_y": [350,200],
+                        "speed": [0,0]
+                    }   
+                ],
+                "plataformas":
+                [
+                    {
+                        "name":"left_wall",
+                        "amount" : 4,
+                        "position_x" : -35,
+                        "position_y": [0,200,400,600],
+                        "speed": 0,
+                        "width" : 50,
+                        "height": 200,
+                        "speed_up_down":0
+                    },
+                    {
+                        "name":"right_wall",
+                        "amount" : 4,
+                        "position_x" : 1490,
+                        "position_y": [0,400,800,1200],
+                        "speed": 0,
+                        "width" : 50,
+                        "height": 400,
+                        "speed_up_down":0
+                    },
+                    {
+                        "name":"flat",
+                        "amount" : 4,
+                        "position_x" : [0,400,800,1200],
+                        "position_y": 650,
+                        "speed": 0,
+                        "width" : 400,
+                        "height": 200,
+                        "speed_up_down":0
+                    },
+                    {
+                        "name":"some",
+                        "amount" : 18,
+                        "position_x" : [10,110,600,650,700,750,800,850,900,950,1000,1050,1100,50,100,150,1100,50],
+                        "position_y": [550,490,385,385,385,385,385,385,385,385,220,220,220,220,220,220,370,340],
+                        "speed": 0,
+                        "width" : 50,
+                        "height": 50,
+                        "speed_up_down":0,
+                        "type":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+                    },
+                    {
+                        "name":"movable",
+                        "amount" : 5,
+                        "position_x" : [800,850,900,1300,1000],
+                        "position_y": [550,550,550,600,600],
+                        "speed": [7,7,7,10,10],
+                        "width" : 50,
+                        "height": 50,
+                        "speed_up_down":5,
+                        "punto_volver_plat_up":[300,300,300,300,250],
+                        "type":[1,1,1,1,1],
+                        "point_move_r": [1100,1150,1200,1300,1100],
+                        "point_move_l":[300,350,400,1300,900]
+                    }
+                ],
+                "frutas":
+                [
+                    {
+                        "name":"apple",
+                        "amount":10,
+                        "position_x":[15,115,210,1050,1200,1200,1050,1200,1300,20],
+                        "position_y":[520,460,400,100,500,600,200,400,250,250],
+                        "speed": 0
+                    },
+                    {
+                        "name":"apple_movable",
+                        "amount":2,
+                        "position_x":[810,500],
+                        "position_y":[350,520],
+                        "speed":[1,1]
+                    }
+                
+                ],
+                "trampas":
+                [
+                    {
+                        "name":"cierra",
+                        "amount" : 2,
+                        "position_x": [700,860],
+                        "position_y": [340,340]
+                    }
+                ]
+            }
+
+        }
+    ]
+}
+ 
